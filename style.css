@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Caprasimo&family=Oswald:wght@200&family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,800;1,600&family=Roboto+Mono:ital,wght@0,300;0,500;1,100&family=Ysabeau+Infant:ital,wght@1,300;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Agdasima', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #222;
+    color: #fff;
+}
+.container{
+    width: 300px;
+    height: 700px;
+    border: 2px solid;
+    border-left-color: aqua;
+    border-right-color: aqua;
+    border-top-color: rgb(57, 22, 102);
+    border-bottom-color: rgb(57, 22, 102);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .image-section{
+    height: 250px;
+    width: 250px;
+    background: linear-gradient(#0cf, #ec45f2 , #0cf , #ec45f2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}   
+img{
+   width: 250px;
+   border-radius: 50%;
+}
+.container p{
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
